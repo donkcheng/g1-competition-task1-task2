@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "created_at": "example",
+  "interface": "lo",
+  "duration_s": 4.0,
+  "events": [
+    {"t": 0.0, "vx": 0.1, "vy": 0.0, "wz": 0.0},
+    {"t": 1.0, "vx": 0.0, "vy": 0.0, "wz": 0.0, "marker": "point_1"},
+    {"t": 2.0, "vx": 0.1, "vy": 0.0, "wz": 0.0, "marker": "point_2"},
+    {"t": 3.0, "vx": 0.0, "vy": 0.0, "wz": 0.0, "marker": "point_3"},
+    {"t": 4.0, "vx": 0.0, "vy": 0.0, "wz": 0.0}
+  ],
+  "poses": []
+}

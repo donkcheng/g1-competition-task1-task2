@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv*/
+
+# Local machine configuration and credentials.
+.env
+config/*.env
+!config/*.env.example
+
+# Runtime output.
+logs/*
+!logs/.gitkeep
+captures/
+outputs/
+*.pid
+.task2_*.lock
+
+# Raw demonstrations and videos are intentionally kept outside Git.
+data/*
+!data/.gitkeep
+
+# Trained weights are distributed separately. Small configs/checksums remain tracked.
+models/**/model.safetensors
+models/**/optimizer*
+models/**/scheduler*
+models/**/rng_state*
+
+# Local/reference copies of third-party repositories and generated captures.
+vendor/
+sonic_reference/
